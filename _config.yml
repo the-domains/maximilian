@@ -1,28 +1,40 @@
-name: maximilian
-favicon: null
-layout_spectrum: 0.7591232003178447
-typography_spectrum: 0.9598954133689404
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.562724
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.2689449274912477
+  brandStrength: 0.9289644882082939
+  rhythmicContrast: 0.008097627898678184
   brandColors:
     - '#E0FBFC'
     - '#C2DFE3'
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
-  brandStrength: 0.9289644882082939
   lightness: 0.3241295099724084
-  saturation: 0.26894492749124765
-  rhythmicContrast: 0.008097627898678184
-purpose: []
+typography_spectrum: 0.437276
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: maximilian
